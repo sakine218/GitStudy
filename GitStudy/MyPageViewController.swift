@@ -9,11 +9,29 @@
 import UIKit
 
 class MyPageViewController: UIViewController {
+    
+    let ud = UserDefaults.standard
+    var isAssign: Bool?
+    
+    override func viewWillAppear(_ animated: Bool) {
+        firstAssignDecision()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    func firstAssignDecision() {
+        isAssign = ud.object(forKey: "isAssign") as? Bool
+        if isAssign == nil || isAssign == true {
+            print("初回起動")
+            isAssign = false
+            ud.set(isAssign, forKey: "isAssign")
+        } else {
+            print("プロフィール登録済み")
+        }
     }
     
 

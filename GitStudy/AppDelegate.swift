@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let ud = UserDefaults.standard
+        var isAssign: Bool? = ud.object(forKey: "isAssign") as? Bool
+        //プロフィール登録前かどうか
+        if isAssign == nil && isAssign == true {
+        } else {
+        }
+        
         return true
     }
 
