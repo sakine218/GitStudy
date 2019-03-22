@@ -13,7 +13,7 @@
         <!--MyPage-->
         <scene sceneID="R5e-Gg-POS">
             <objects>
-                <viewController storyboardIdentifier="MyPageViewController" id="BzC-pF-Nfv" customClass="MyPageViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="myPageViewController" id="BzC-pF-Nfv" customClass="MyPageViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iEx-KB-Clt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

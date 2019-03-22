@@ -13,7 +13,7 @@
         <!--Logging-->
         <scene sceneID="eqe-Nz-70U">
             <objects>
-                <viewController storyboardIdentifier="LoggingViewController" id="1fm-9E-2bE" customClass="LoggingViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loggingViewController" id="1fm-9E-2bE" customClass="LoggingViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J8j-OP-cyv" customClass="LoggingViewController">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="New"/>
                                 <connections>
-                                    <segue destination="uH6-Zm-sFR" kind="show" id="hp7-7Q-snK"/>
+                                    <segue destination="xzj-IN-Ooc" kind="show" id="K83-Un-to0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -32,43 +32,49 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Logging" id="Jug-D9-4Hj"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="createButton" destination="5No-mK-HpC" id="knj-iT-LaZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qbu-QH-zop" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138" y="148"/>
         </scene>
         <!--Add Logging View Controller-->
-        <scene sceneID="bwp-ts-ydI">
+        <scene sceneID="0f1-zp-Bda">
             <objects>
-                <viewController id="uH6-Zm-sFR" customClass="AddLoggingViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rgV-70-sLN">
+                <viewController storyboardIdentifier="addLoggingViewController" id="xzj-IN-Ooc" customClass="AddLoggingViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RUg-PV-fTx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hoge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzf-4S-AKk">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nC-OI-L8M">
+                                <rect key="frame" x="310" y="35" width="30" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="×"/>
+                                <connections>
+                                    <action selector="retireButton:" destination="xzj-IN-Ooc" eventType="touchUpInside" id="fNv-bb-y9X"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hoge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlv-dV-3eD">
                                 <rect key="frame" x="166" y="323" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8G-ox-DQj">
-                                <rect key="frame" x="310" y="35" width="30" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="×"/>
-                                <connections>
-                                    <action selector="cancelButton:" destination="uH6-Zm-sFR" eventType="touchUpInside" id="6VY-nC-LmB"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="q7M-ym-kp7"/>
+                        <viewLayoutGuide key="safeArea" id="gLQ-iY-VPH"/>
                     </view>
+                    <connections>
+                        <outlet property="retireButton" destination="4nC-OI-L8M" id="GJZ-NZ-Qan"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mhV-P1-Afc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfN-Vb-xiu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="906" y="148"/>
+            <point key="canvasLocation" x="945" y="148"/>
         </scene>
     </scenes>
 </document>

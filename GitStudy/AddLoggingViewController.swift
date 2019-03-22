@@ -10,19 +10,18 @@ import UIKit
 
 class AddLoggingViewController: UIViewController {
     
-    @IBOutlet var cancelButton: UIButton!
-
+    @IBOutlet weak var retireButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func cancelButton(_ sender: Any) {
-        
+    @IBAction func retireButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
-
     /*
     // MARK: - Navigation
 

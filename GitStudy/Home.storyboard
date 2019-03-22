@@ -13,7 +13,7 @@
         <!--Home-->
         <scene sceneID="vw8-CT-cxq">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="hwn-1P-t5l" customClass="HomeViewController" customModule="GitStudy" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeViewController" id="hwn-1P-t5l" customClass="HomeViewController" customModule="GitStudy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZMf-Mw-A82">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

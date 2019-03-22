@@ -9,30 +9,30 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--HomeViewController-->
+        <!--homeViewController-->
         <scene sceneID="2nY-l2-9PX">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="HomeViewController" storyboardName="Home" referencedIdentifier="HomeViewController" id="dtp-40-8Ya" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="homeViewController" storyboardName="Home" referencedIdentifier="homeViewController" id="dtp-40-8Ya" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="53a-84-sM6"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IhI-ZN-nIu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="720" y="-2"/>
         </scene>
-        <!--LoggingViewController-->
+        <!--loggingViewController-->
         <scene sceneID="1gc-jN-Fpr">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="LoggingViewController" storyboardName="Logging" referencedIdentifier="LoggingViewController" id="g1w-mN-Jt6" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="loggingViewController" storyboardName="Logging" referencedIdentifier="loggingViewController" id="g1w-mN-Jt6" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="QYz-ju-oan"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iD0-7v-Saw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="719" y="77"/>
         </scene>
-        <!--MyPageViewController-->
+        <!--myPageViewController-->
         <scene sceneID="ZOv-eK-oCt">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="MyPageViewController" storyboardName="MyPage" referencedIdentifier="MyPageViewController" id="Uem-wS-LFX" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="myPageViewController" storyboardName="MyPage" referencedIdentifier="myPageViewController" id="Uem-wS-LFX" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="uYT-JX-tcy"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cya-RV-0Kq" userLabel="First Responder" sceneMemberID="firstResponder"/>

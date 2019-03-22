@@ -10,6 +10,8 @@ import UIKit
 
 class LoggingViewController: UIViewController {
 
+    @IBOutlet weak var createButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
