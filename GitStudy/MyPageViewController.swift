@@ -26,7 +26,7 @@ class MyPageViewController: UIViewController {
     func firstAssignDecision() {
         isAssign = ud.object(forKey: "isAssign") as? Bool
         if isAssign == nil || isAssign == true {
-            print("初回起動")
+            print("プロフィール未登録")
             isAssign = false
             ud.set(isAssign, forKey: "isAssign")
         } else {
