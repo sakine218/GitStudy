@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113F41D42261D40600F209A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41D22261D40600F209A0 /* HomeViewController.swift */; };
+		113F41D52261D40600F209A0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41D32261D40600F209A0 /* HomeViewController.xib */; };
+		113F41DC2261D6D500F209A0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41DA2261D6D500F209A0 /* DetailViewController.swift */; };
+		113F41DD2261D6D500F209A0 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41DB2261D6D500F209A0 /* DetailViewController.xib */; };
+		113F41E02261D7A300F209A0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41DE2261D7A300F209A0 /* CollectionViewCell.swift */; };
+		113F41E12261D7A300F209A0 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41DF2261D7A300F209A0 /* CollectionViewCell.xib */; };
+		113F41E62261D89800F209A0 /* AddLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41E42261D89800F209A0 /* AddLoggingViewController.swift */; };
+		113F41E72261D89800F209A0 /* AddLoggingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41E52261D89800F209A0 /* AddLoggingViewController.xib */; };
 		11D357322244B1550035D260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D357312244B1550035D260 /* AppDelegate.swift */; };
 		11D357372244B1550035D260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D357352244B1550035D260 /* Main.storyboard */; };
 		11D357392244B1570035D260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D357382244B1570035D260 /* Assets.xcassets */; };
 		11D3573C2244B1570035D260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D3573A2244B1570035D260 /* LaunchScreen.storyboard */; };
 		11D357472244B1570035D260 /* GitStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D357462244B1570035D260 /* GitStudyTests.swift */; };
 		11D357522244B1570035D260 /* GitStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D357512244B1570035D260 /* GitStudyUITests.swift */; };
-		11D357622244BB0A0035D260 /* Logging.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D357612244BB0A0035D260 /* Logging.storyboard */; };
-		11D357642244BB350035D260 /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D357632244BB350035D260 /* MyPage.storyboard */; };
-		11D357662244BB4F0035D260 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D357652244BB4F0035D260 /* Home.storyboard */; };
-		11D357702244BF420035D260 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3576F2244BF420035D260 /* MainTabBarController.swift */; };
-		11D357722244BF6E0035D260 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D357712244BF6E0035D260 /* HomeViewController.swift */; };
-		11D357742244BF7A0035D260 /* LoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D357732244BF7A0035D260 /* LoggingViewController.swift */; };
-		11D357762244BF890035D260 /* AddLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D357752244BF890035D260 /* AddLoggingViewController.swift */; };
-		11D357782244BF9B0035D260 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D357772244BF9B0035D260 /* MyPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		113F41D22261D40600F209A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		113F41D32261D40600F209A0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		113F41DA2261D6D500F209A0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		113F41DB2261D6D500F209A0 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		113F41DE2261D7A300F209A0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		113F41DF2261D7A300F209A0 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		113F41E42261D89800F209A0 /* AddLoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoggingViewController.swift; sourceTree = "<group>"; };
+		113F41E52261D89800F209A0 /* AddLoggingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddLoggingViewController.xib; sourceTree = "<group>"; };
 		11D3572E2244B1550035D260 /* GitStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D357312244B1550035D260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D357362244B1550035D260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,14 +61,6 @@
 		11D3574D2244B1570035D260 /* GitStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D357512244B1570035D260 /* GitStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitStudyUITests.swift; sourceTree = "<group>"; };
 		11D357532244B1570035D260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11D357612244BB0A0035D260 /* Logging.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Logging.storyboard; sourceTree = "<group>"; };
-		11D357632244BB350035D260 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
-		11D357652244BB4F0035D260 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		11D3576F2244BF420035D260 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		11D357712244BF6E0035D260 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		11D357732244BF7A0035D260 /* LoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingViewController.swift; sourceTree = "<group>"; };
-		11D357752244BF890035D260 /* AddLoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoggingViewController.swift; sourceTree = "<group>"; };
-		11D357772244BF9B0035D260 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,14 +113,14 @@
 			children = (
 				11D357312244B1550035D260 /* AppDelegate.swift */,
 				11D357352244B1550035D260 /* Main.storyboard */,
-				11D3576F2244BF420035D260 /* MainTabBarController.swift */,
-				11D357652244BB4F0035D260 /* Home.storyboard */,
-				11D357712244BF6E0035D260 /* HomeViewController.swift */,
-				11D357612244BB0A0035D260 /* Logging.storyboard */,
-				11D357732244BF7A0035D260 /* LoggingViewController.swift */,
-				11D357752244BF890035D260 /* AddLoggingViewController.swift */,
-				11D357632244BB350035D260 /* MyPage.storyboard */,
-				11D357772244BF9B0035D260 /* MyPageViewController.swift */,
+				113F41D22261D40600F209A0 /* HomeViewController.swift */,
+				113F41D32261D40600F209A0 /* HomeViewController.xib */,
+				113F41DE2261D7A300F209A0 /* CollectionViewCell.swift */,
+				113F41DF2261D7A300F209A0 /* CollectionViewCell.xib */,
+				113F41E42261D89800F209A0 /* AddLoggingViewController.swift */,
+				113F41E52261D89800F209A0 /* AddLoggingViewController.xib */,
+				113F41DA2261D6D500F209A0 /* DetailViewController.swift */,
+				113F41DB2261D6D500F209A0 /* DetailViewController.xib */,
 				11D357382244B1570035D260 /* Assets.xcassets */,
 				11D3573A2244B1570035D260 /* LaunchScreen.storyboard */,
 				11D3573D2244B1570035D260 /* Info.plist */,
@@ -250,12 +250,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D357622244BB0A0035D260 /* Logging.storyboard in Resources */,
-				11D357642244BB350035D260 /* MyPage.storyboard in Resources */,
 				11D3573C2244B1570035D260 /* LaunchScreen.storyboard in Resources */,
-				11D357662244BB4F0035D260 /* Home.storyboard in Resources */,
+				113F41DD2261D6D500F209A0 /* DetailViewController.xib in Resources */,
+				113F41E12261D7A300F209A0 /* CollectionViewCell.xib in Resources */,
 				11D357392244B1570035D260 /* Assets.xcassets in Resources */,
+				113F41E72261D89800F209A0 /* AddLoggingViewController.xib in Resources */,
 				11D357372244B1550035D260 /* Main.storyboard in Resources */,
+				113F41D52261D40600F209A0 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,12 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D357742244BF7A0035D260 /* LoggingViewController.swift in Sources */,
-				11D357782244BF9B0035D260 /* MyPageViewController.swift in Sources */,
-				11D357762244BF890035D260 /* AddLoggingViewController.swift in Sources */,
 				11D357322244B1550035D260 /* AppDelegate.swift in Sources */,
-				11D357702244BF420035D260 /* MainTabBarController.swift in Sources */,
-				11D357722244BF6E0035D260 /* HomeViewController.swift in Sources */,
+				113F41E62261D89800F209A0 /* AddLoggingViewController.swift in Sources */,
+				113F41D42261D40600F209A0 /* HomeViewController.swift in Sources */,
+				113F41E02261D7A300F209A0 /* CollectionViewCell.swift in Sources */,
+				113F41DC2261D6D500F209A0 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
