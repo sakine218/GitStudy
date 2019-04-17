@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  ReadingViewController.swift
 //  GitStudy
 //
 //  Created by Sakine Nishibayashi on 2019/04/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class ReadingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

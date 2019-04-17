@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  SecondViewController.swift
 //  GitStudy
 //
 //  Created by Sakine Nishibayashi on 2019/04/17.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    
 
     /*
     // MARK: - Navigation

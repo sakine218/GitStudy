@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		113F41D42261D40600F209A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41D22261D40600F209A0 /* HomeViewController.swift */; };
-		113F41D52261D40600F209A0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41D32261D40600F209A0 /* HomeViewController.xib */; };
 		113F41DC2261D6D500F209A0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41DA2261D6D500F209A0 /* DetailViewController.swift */; };
 		113F41DD2261D6D500F209A0 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41DB2261D6D500F209A0 /* DetailViewController.xib */; };
 		113F41E02261D7A300F209A0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41DE2261D7A300F209A0 /* CollectionViewCell.swift */; };
 		113F41E12261D7A300F209A0 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41DF2261D7A300F209A0 /* CollectionViewCell.xib */; };
 		113F41E62261D89800F209A0 /* AddLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41E42261D89800F209A0 /* AddLoggingViewController.swift */; };
 		113F41E72261D89800F209A0 /* AddLoggingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41E52261D89800F209A0 /* AddLoggingViewController.xib */; };
+		113F41EC2266FB5200F209A0 /* ReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41EA2266FB5200F209A0 /* ReadingViewController.swift */; };
+		113F41ED2266FB5200F209A0 /* ReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41EB2266FB5200F209A0 /* ReadingViewController.xib */; };
+		113F41F12266FD1900F209A0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41F02266FD1900F209A0 /* SecondViewController.swift */; };
+		113F41F32266FD8700F209A0 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41F22266FD8700F209A0 /* PageViewController.swift */; };
+		113F41FA2267079300F209A0 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41F82267079300F209A0 /* SampleViewController.swift */; };
+		113F41FB2267079300F209A0 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41F92267079300F209A0 /* SampleViewController.xib */; };
+		113F41FE2267082600F209A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41FC2267082600F209A0 /* HomeViewController.swift */; };
+		113F41FF2267082600F209A0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41FD2267082600F209A0 /* HomeViewController.xib */; };
 		11D357322244B1550035D260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D357312244B1550035D260 /* AppDelegate.swift */; };
 		11D357372244B1550035D260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D357352244B1550035D260 /* Main.storyboard */; };
 		11D357392244B1570035D260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D357382244B1570035D260 /* Assets.xcassets */; };
@@ -41,14 +47,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		113F41D22261D40600F209A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		113F41D32261D40600F209A0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		113F41DA2261D6D500F209A0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		113F41DB2261D6D500F209A0 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		113F41DE2261D7A300F209A0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		113F41DF2261D7A300F209A0 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		113F41E42261D89800F209A0 /* AddLoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoggingViewController.swift; sourceTree = "<group>"; };
 		113F41E52261D89800F209A0 /* AddLoggingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddLoggingViewController.xib; sourceTree = "<group>"; };
+		113F41EA2266FB5200F209A0 /* ReadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingViewController.swift; sourceTree = "<group>"; };
+		113F41EB2266FB5200F209A0 /* ReadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReadingViewController.xib; sourceTree = "<group>"; };
+		113F41F02266FD1900F209A0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		113F41F22266FD8700F209A0 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		113F41F82267079300F209A0 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		113F41F92267079300F209A0 /* SampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+		113F41FC2267082600F209A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		113F41FD2267082600F209A0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		11D3572E2244B1550035D260 /* GitStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D357312244B1550035D260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D357362244B1550035D260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -113,8 +125,14 @@
 			children = (
 				11D357312244B1550035D260 /* AppDelegate.swift */,
 				11D357352244B1550035D260 /* Main.storyboard */,
-				113F41D22261D40600F209A0 /* HomeViewController.swift */,
-				113F41D32261D40600F209A0 /* HomeViewController.xib */,
+				113F41F22266FD8700F209A0 /* PageViewController.swift */,
+				113F41F02266FD1900F209A0 /* SecondViewController.swift */,
+				113F41FC2267082600F209A0 /* HomeViewController.swift */,
+				113F41FD2267082600F209A0 /* HomeViewController.xib */,
+				113F41F82267079300F209A0 /* SampleViewController.swift */,
+				113F41F92267079300F209A0 /* SampleViewController.xib */,
+				113F41EA2266FB5200F209A0 /* ReadingViewController.swift */,
+				113F41EB2266FB5200F209A0 /* ReadingViewController.xib */,
 				113F41DE2261D7A300F209A0 /* CollectionViewCell.swift */,
 				113F41DF2261D7A300F209A0 /* CollectionViewCell.xib */,
 				113F41E42261D89800F209A0 /* AddLoggingViewController.swift */,
@@ -253,10 +271,12 @@
 				11D3573C2244B1570035D260 /* LaunchScreen.storyboard in Resources */,
 				113F41DD2261D6D500F209A0 /* DetailViewController.xib in Resources */,
 				113F41E12261D7A300F209A0 /* CollectionViewCell.xib in Resources */,
+				113F41ED2266FB5200F209A0 /* ReadingViewController.xib in Resources */,
 				11D357392244B1570035D260 /* Assets.xcassets in Resources */,
 				113F41E72261D89800F209A0 /* AddLoggingViewController.xib in Resources */,
 				11D357372244B1550035D260 /* Main.storyboard in Resources */,
-				113F41D52261D40600F209A0 /* HomeViewController.xib in Resources */,
+				113F41FB2267079300F209A0 /* SampleViewController.xib in Resources */,
+				113F41FF2267082600F209A0 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113F41F12266FD1900F209A0 /* SecondViewController.swift in Sources */,
 				11D357322244B1550035D260 /* AppDelegate.swift in Sources */,
 				113F41E62261D89800F209A0 /* AddLoggingViewController.swift in Sources */,
-				113F41D42261D40600F209A0 /* HomeViewController.swift in Sources */,
 				113F41E02261D7A300F209A0 /* CollectionViewCell.swift in Sources */,
+				113F41F32266FD8700F209A0 /* PageViewController.swift in Sources */,
+				113F41FE2267082600F209A0 /* HomeViewController.swift in Sources */,
 				113F41DC2261D6D500F209A0 /* DetailViewController.swift in Sources */,
+				113F41EC2266FB5200F209A0 /* ReadingViewController.swift in Sources */,
+				113F41FA2267079300F209A0 /* SampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

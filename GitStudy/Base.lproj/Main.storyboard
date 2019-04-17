@@ -10,21 +10,59 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home View Controller-->
-        <scene sceneID="yMX-DW-NoE">
+        <!--Second View Controller-->
+        <scene sceneID="ncH-9f-s6n">
             <objects>
-                <viewController id="brf-fl-7Ww" customClass="HomeViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dNe-Yf-C7D">
+                <viewController storyboardIdentifier="SecondViewController" id="2Qb-0h-8Yt" customClass="SecondViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CIU-gS-dWC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ふぉ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMy-6e-B3x">
+                                <rect key="frame" x="170" y="323" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Sv4-q7-bmV"/>
+                        <viewLayoutGuide key="safeArea" id="xDN-Rl-070"/>
                     </view>
-                    <navigationItem key="navigationItem" id="UTE-iL-or7"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MLB-i8-gyA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xVE-hL-hfJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1008.8" y="58.920539730134934"/>
+            <point key="canvasLocation" x="2516" y="51.724137931034484"/>
+        </scene>
+        <!--Sample View Controller-->
+        <scene sceneID="vfH-eE-8BA">
+            <objects>
+                <viewController storyboardIdentifier="SampleViewController" id="ZDD-C5-c6F" customClass="SampleViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O8U-ZD-GUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1439" y="778"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="A8c-th-v3I">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="PVW-3Z-GPN" customClass="PageViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="MhH-WG-wYf"/>
+                    <connections>
+                        <segue destination="2Qb-0h-8Yt" kind="show" id="iOo-c6-hp8"/>
+                        <segue destination="ZDD-C5-c6F" kind="show" id="Glb-hP-U7y"/>
+                    </connections>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ed-jD-C5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1017" y="59"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="BmY-WV-qLr">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="gh1-se-ihl" customClass="HomeViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n3f-4V-mC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1777" y="-412"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qe4-nG-G9u">
@@ -35,7 +73,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="brf-fl-7Ww" kind="relationship" relationship="rootViewController" id="zEX-Ud-AxC"/>
+                        <segue destination="PVW-3Z-GPN" kind="relationship" relationship="rootViewController" id="ATy-Yq-7dC"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c83-0o-JrM" userLabel="First Responder" sceneMemberID="firstResponder"/>
