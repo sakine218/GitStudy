@@ -15,7 +15,6 @@
 		113F41E72261D89800F209A0 /* AddLoggingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41E52261D89800F209A0 /* AddLoggingViewController.xib */; };
 		113F41EC2266FB5200F209A0 /* ReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41EA2266FB5200F209A0 /* ReadingViewController.swift */; };
 		113F41ED2266FB5200F209A0 /* ReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41EB2266FB5200F209A0 /* ReadingViewController.xib */; };
-		113F41F12266FD1900F209A0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41F02266FD1900F209A0 /* SecondViewController.swift */; };
 		113F41F32266FD8700F209A0 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41F22266FD8700F209A0 /* PageViewController.swift */; };
 		113F41FE2267082600F209A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F41FC2267082600F209A0 /* HomeViewController.swift */; };
 		113F41FF2267082600F209A0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113F41FD2267082600F209A0 /* HomeViewController.xib */; };
@@ -53,7 +52,6 @@
 		113F41E52261D89800F209A0 /* AddLoggingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddLoggingViewController.xib; sourceTree = "<group>"; };
 		113F41EA2266FB5200F209A0 /* ReadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingViewController.swift; sourceTree = "<group>"; };
 		113F41EB2266FB5200F209A0 /* ReadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReadingViewController.xib; sourceTree = "<group>"; };
-		113F41F02266FD1900F209A0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		113F41F22266FD8700F209A0 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		113F41FC2267082600F209A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		113F41FD2267082600F209A0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 				11D357312244B1550035D260 /* AppDelegate.swift */,
 				11D357352244B1550035D260 /* Main.storyboard */,
 				113F41F22266FD8700F209A0 /* PageViewController.swift */,
-				113F41F02266FD1900F209A0 /* SecondViewController.swift */,
 				113F41FC2267082600F209A0 /* HomeViewController.swift */,
 				113F41FD2267082600F209A0 /* HomeViewController.xib */,
 				113F41EA2266FB5200F209A0 /* ReadingViewController.swift */,
@@ -294,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				113F41F12266FD1900F209A0 /* SecondViewController.swift in Sources */,
 				11D357322244B1550035D260 /* AppDelegate.swift in Sources */,
 				113F41E62261D89800F209A0 /* AddLoggingViewController.swift in Sources */,
 				113F41E02261D7A300F209A0 /* CollectionViewCell.swift in Sources */,

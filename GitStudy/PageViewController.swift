@@ -19,12 +19,12 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
         
         dataSource = self
         
-        //let homeViewController: HomeViewController = storyboard!.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        let homeViewController: HomeViewController = storyboard!.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
         
-        let secondViewController: SecondViewController = storyboard!.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+        let readingViewController: ReadingViewController = storyboard!.instantiateViewController(withIdentifier: "ReadingViewController") as! ReadingViewController
         
         //全ページを配列に格納
-        //pageViewControllers = [homeViewController,secondViewController]
+        pageViewControllers = [homeViewController,readingViewController]
         //UIPageViewControllerに表示対象を設定
         setViewControllers([pageViewControllers[0]], direction: .forward, animated: false, completion: nil)
 

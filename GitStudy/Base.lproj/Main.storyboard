@@ -1,55 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9Bv-pV-9Vo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3LT-JP-GNr">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Second View Controller-->
-        <scene sceneID="ncH-9f-s6n">
-            <objects>
-                <viewController storyboardIdentifier="SecondViewController" id="2Qb-0h-8Yt" customClass="SecondViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="CIU-gS-dWC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ふぉ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMy-6e-B3x">
-                                <rect key="frame" x="170" y="323" width="35" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="xDN-Rl-070"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xVE-hL-hfJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2516" y="51.724137931034484"/>
-        </scene>
         <!--Reading View Controller-->
         <scene sceneID="ekR-M1-TU2">
             <objects>
                 <viewController storyboardIdentifier="ReadingViewController" id="9Bv-pV-9Vo" customClass="ReadingViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8m6-6Y-JCu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3414" y="-710"/>
+            <point key="canvasLocation" x="1958" y="501"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="A8c-th-v3I">
             <objects>
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="PVW-3Z-GPN" customClass="PageViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="MhH-WG-wYf"/>
-                    <connections>
-                        <segue destination="2Qb-0h-8Yt" kind="show" id="iOo-c6-hp8"/>
-                    </connections>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ed-jD-C5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,7 +33,7 @@
                 <viewController storyboardIdentifier="HomeViewController" id="gh1-se-ihl" customClass="HomeViewController" customModule="GitStudy" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n3f-4V-mC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1777" y="-412"/>
+            <point key="canvasLocation" x="1959" y="-214"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qe4-nG-G9u">
